@@ -2,6 +2,7 @@
 Faça um Programa que armazena em uma lista 5 números inteiros, mostre a soma,
 a multiplicação e os números.
 """
+
 valores = []  # VAI CRIAR UMA LISTA
 for cont in range(0, 5):  # A LISTA TERÁ UM TAMANHO DE 5 ELEMENTOS
     valores.append(int(input('Digite um valor: ')))  # VAI ARMAZENAR OS ELEMENTOS DIGITADOS
